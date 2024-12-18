@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --color-black: #18191f;
+  --color-neutral: #f5f7fa;
+  --color-primary: #4caf4f;
+  --color-grey: #717171;
+  --color-grey2: #4d4d4d;
+  --color-black2: #263238;
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-neutral);
+  gap: 145px;
+  padding: 22px 105px;
+}
+
+.navbar {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.button-login {
+  color: var(--color-primary);
+  text-decoration: none;
+  background-color: var(--color-neutral);
+  padding-right: 20px;
+}
+
+.button-sign-up {
+  color: var(--color-neutral);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.hero-section {
+  background-color: var(--color-neutral);
+  display: flex;
+  padding: 96px 144px;
+  gap: 104px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-grey);
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.buttons-register {
+  color: var(--color-neutral);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  padding: 14px 32px;
+}
+
+span {
+  color: var(--color-primary);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 64px;
+  margin-top: 0px;
+  color: var(--color-grey);
+  margin-bottom: 0px;
+}
+
+.community-title {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--color-grey2);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.community-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-grey);
+  text-align: center;
+}
+
+.community-image {
+  display: flex;
+  justify-content: space-around;
+  gap: 127, 5px;
+  gap: 48px;
+}
+
+.image-text {
+  width: 299px;
+  height: 260px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px #abbed133;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 80px;
+  gap: 49px;
+}
+
+.Body-text {
+  gap: 32px;
+  margin-right: 100px;
+}
+
+.Body-text_h2 {
+  font-weight: 600px;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--color-grey2);
+}
+
+.Body-text_subtitle {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey);
+  margin-bottom: 46px;
+}
+
+.Body-button {
+  color: var(--color-neutral);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  padding: 14px 32px;
+}
+
+.Calender-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Calender-text_h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--color-grey2);
+}
+
+.Calender-subtitle {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey);
+  margin-bottom: 46px;
+}
+
+.button-demo {
+  color: var(--color-neutral);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  padding: 14px 32px;
+}
+
+.container-Calender {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 144px;
+  margin-top: 100px;
+}
+
+.footer-top {
+  text-align: center;
+  border-radius: 8px;
+  background-color: var(--color-neutral);
+  padding: 64px 64px;
+  gap: 32px;
+  margin-left: 120px;
+  margin-bottom: 42px;
+  margin-right: 120px;
+  margin-top: 42px;
+}
+
+.footer-text_h1 {
+  font-weight: 600px;
+  font-size: 64px;
+  text-align: center;
+  color: var(--color-black2);
+  line-height: 76px;
+  margin-bottom: 46px;
+}
+
+.button-footer_top {
+  color: var(--color-neutral);
+  text-decoration: none;
+  background-color: var(--color-primary);
+  padding: 14px 32px;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: var(--color-black2);
+  padding: 64px 165px;
+}
+
+.subtitle-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-neutral);
+  gap: 8px;
+}
